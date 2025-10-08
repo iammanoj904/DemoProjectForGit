@@ -7,7 +7,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class DemoProjectForGitApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(DemoProjectForGitApplication.class, args);
+
+        SpringApplication.run(DemoProjectForGitApplication.class, args);
+        System.out.println("Hello Git");
 	}
 
 }
